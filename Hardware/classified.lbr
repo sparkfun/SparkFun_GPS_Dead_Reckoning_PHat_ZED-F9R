@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -57,7 +57,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -173,16 +173,16 @@
 <smd name="P12" x="4.988" y="-7.62" dx="0.8" dy="1.5" layer="1"/>
 <smd name="P13" x="6.088" y="-7.62" dx="0.8" dy="1.5" layer="1"/>
 <smd name="P14" x="7.188" y="-7.62" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P42" x="-7.112" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P41" x="-6.012" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P40" x="-4.912" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P39" x="-3.812" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P38" x="-2.712" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P37" x="-1.612" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P36" x="-0.512" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P35" x="0.588" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P34" x="1.688" y="7.33" dx="0.8" dy="1.5" layer="1"/>
-<smd name="P33" x="2.788" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P41" x="-7.112" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P40" x="-6.012" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P39" x="-4.912" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P38" x="-3.812" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P37" x="-2.712" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P36" x="-1.612" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P35" x="-0.512" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P34" x="0.588" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P33" x="1.688" y="7.33" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P32" x="2.788" y="7.33" dx="0.8" dy="1.5" layer="1"/>
 <smd name="P31" x="3.888" y="7.33" dx="0.8" dy="1.5" layer="1"/>
 <smd name="P30" x="4.988" y="7.33" dx="0.8" dy="1.5" layer="1"/>
 <smd name="P29" x="6.088" y="7.33" dx="0.8" dy="1.5" layer="1"/>
@@ -200,19 +200,19 @@
 <smd name="P25" x="9.988" y="4.23" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <smd name="P26" x="9.988" y="5.33" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <smd name="P27" x="9.988" y="6.43" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="P43" x="-9.912" y="6.43" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P44" x="-9.912" y="5.33" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P45" x="-9.912" y="4.23" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P46" x="-9.912" y="3.13" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P47" x="-9.912" y="2.03" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P48" x="-9.912" y="0.93" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P49" x="-9.912" y="-0.17" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P50" x="-9.912" y="-1.27" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P51" x="-9.912" y="-2.37" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P52" x="-9.912" y="-3.47" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P53" x="-9.912" y="-4.57" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P54" x="-9.912" y="-5.67" dx="0.8" dy="1.5" layer="1" rot="R270"/>
-<smd name="P55" x="-9.912" y="-6.77" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P42" x="-9.912" y="6.43" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P43" x="-9.912" y="5.33" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P44" x="-9.912" y="4.23" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P45" x="-9.912" y="3.13" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P46" x="-9.912" y="2.03" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P47" x="-9.912" y="0.93" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P48" x="-9.912" y="-0.17" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P49" x="-9.912" y="-1.27" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P50" x="-9.912" y="-2.37" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P51" x="-9.912" y="-3.47" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P52" x="-9.912" y="-4.57" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P53" x="-9.912" y="-5.67" dx="0.8" dy="1.5" layer="1" rot="R270"/>
+<smd name="P54" x="-9.912" y="-6.77" dx="0.8" dy="1.5" layer="1" rot="R270"/>
 <smd name="G1" x="-7.312" y="-5.37" dx="1.1" dy="1.1" layer="1"/>
 <smd name="G2" x="-5.212" y="-5.37" dx="1.1" dy="1.1" layer="1"/>
 <smd name="G3" x="-3.112" y="-5.37" dx="1.1" dy="1.1" layer="1"/>
@@ -280,13 +280,13 @@
 </package>
 </packages>
 <symbols>
-<symbol name="ZED-F9P">
+<symbol name="ZED-F9K">
 <wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
-<pin name="GND" x="-17.78" y="-22.86" length="short"/>
-<pin name="VCC" x="-17.78" y="22.86" length="short"/>
+<pin name="GND" x="-17.78" y="-22.86" length="short" direction="pwr"/>
+<pin name="VCC" x="-17.78" y="22.86" length="short" direction="pwr"/>
 <pin name="!RESET!" x="17.78" y="22.86" length="short" rot="R180"/>
 <pin name="TX/MISO" x="17.78" y="7.62" length="short" rot="R180"/>
 <pin name="RX/MOSI" x="17.78" y="5.08" length="short" rot="R180"/>
@@ -294,27 +294,74 @@
 <pin name="SCL/CLK" x="17.78" y="15.24" length="short" rot="R180"/>
 <pin name="TX_READY" x="17.78" y="12.7" length="short" rot="R180"/>
 <pin name="D_SEL" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="!SAFEBOOT!" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="!SAFEBOOT!" x="17.78" y="-17.78" length="short" direction="in" rot="R180"/>
 <pin name="EXTINT" x="17.78" y="20.32" length="short" rot="R180"/>
-<pin name="TIMEPULSE" x="17.78" y="-17.78" length="short" rot="R180"/>
-<pin name="RF_IN" x="-17.78" y="15.24" length="short"/>
-<pin name="ANT_DETECT" x="-17.78" y="10.16" length="short"/>
-<pin name="ANT_OFF" x="-17.78" y="7.62" length="short"/>
-<pin name="!ANT_SHORT!" x="-17.78" y="5.08" length="short"/>
-<pin name="V_RF" x="-17.78" y="12.7" length="short"/>
-<pin name="GEO_STAT" x="17.78" y="-15.24" length="short" rot="R180"/>
-<pin name="RTK_STAT" x="17.78" y="-12.7" length="short" rot="R180"/>
-<pin name="V_BKCP" x="-17.78" y="20.32" length="short"/>
-<pin name="V_USB" x="-17.78" y="0" length="short"/>
+<pin name="TIMEPULSE" x="17.78" y="-15.24" length="short" direction="out" rot="R180"/>
+<pin name="RF_IN" x="-17.78" y="15.24" length="short" direction="in"/>
+<pin name="ANT_DETECT" x="-17.78" y="10.16" length="short" direction="in"/>
+<pin name="ANT_OFF" x="-17.78" y="7.62" length="short" direction="out"/>
+<pin name="!ANT_SHORT!" x="-17.78" y="5.08" length="short" direction="out"/>
+<pin name="V_RF" x="-17.78" y="12.7" length="short" direction="out"/>
+<pin name="RTK_STAT" x="17.78" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="V_BKCP" x="-17.78" y="20.32" length="short" direction="pwr"/>
+<pin name="V_USB" x="-17.78" y="0" length="short" direction="pwr"/>
 <pin name="USB_D-" x="-17.78" y="-5.08" length="short"/>
 <pin name="USB_D+" x="-17.78" y="-2.54" length="short"/>
 <text x="-15.24" y="25.908" size="1.778" layer="95">&gt;Name</text>
 <text x="-15.24" y="-27.94" size="1.778" layer="96">&gt;Value</text>
-<pin name="TX2" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="RX2" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="TX2" x="17.78" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="RX2" x="17.78" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="WHEEL_TKS" x="-17.78" y="-12.7" length="short" direction="in"/>
+<pin name="DIR" x="-17.78" y="-15.24" length="short" direction="in"/>
+<pin name="RSVD" x="17.78" y="-22.86" length="short" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="UBLOX_ZED_F9K" prefix="U">
+<description>&lt;h3&gt;u-blox ZED-F9K ADR&lt;/h3&gt;
+&lt;p&gt;GPS Unit with Real Time Kinematics (RTK) and internal IMU = &lt;b&gt;Automotive Dead Reckoning&lt;/b&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ZED-F9K" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UBLOX_ZED_F9K">
+<connects>
+<connect gate="G$1" pin="!ANT_SHORT!" pad="P6"/>
+<connect gate="G$1" pin="!RESET!" pad="P49"/>
+<connect gate="G$1" pin="!SAFEBOOT!" pad="P50"/>
+<connect gate="G$1" pin="ANT_DETECT" pad="P4"/>
+<connect gate="G$1" pin="ANT_OFF" pad="P5"/>
+<connect gate="G$1" pin="DIR" pad="P23"/>
+<connect gate="G$1" pin="D_SEL" pad="P47"/>
+<connect gate="G$1" pin="EXTINT" pad="P51"/>
+<connect gate="G$1" pin="GND" pad="G1 G2 G3 G4 G5 G6 G7 G8 G9 G10 G11 G12 G13 G14 G15 G16 G17 G18 G19 G20 G21 G22 G23 G24 G25 G26 G27 G28 G29 G30 G31 G32 G33 G34 G35 G36 G37 G38 G39 G40 G41 G42 G43 G44 G45 G46 G47 G48 P1 P3 P12 P14 P32 P37 P41 P48"/>
+<connect gate="G$1" pin="RF_IN" pad="P2"/>
+<connect gate="G$1" pin="RSVD" pad="P8 P9 P10 P11 P13 P15 P16 P17 P18 P19 P21 P24 P25 P28 P29 P30 P31 P35 P52 P54"/>
+<connect gate="G$1" pin="RTK_STAT" pad="P20"/>
+<connect gate="G$1" pin="RX/MOSI" pad="P43"/>
+<connect gate="G$1" pin="RX2" pad="P26"/>
+<connect gate="G$1" pin="SCL/CLK" pad="P45"/>
+<connect gate="G$1" pin="SDA/!CS!" pad="P44"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="P53"/>
+<connect gate="G$1" pin="TX/MISO" pad="P42"/>
+<connect gate="G$1" pin="TX2" pad="P27"/>
+<connect gate="G$1" pin="TX_READY" pad="P46"/>
+<connect gate="G$1" pin="USB_D+" pad="P40"/>
+<connect gate="G$1" pin="USB_D-" pad="P39"/>
+<connect gate="G$1" pin="VCC" pad="P33 P34"/>
+<connect gate="G$1" pin="V_BKCP" pad="P36"/>
+<connect gate="G$1" pin="V_RF" pad="P7"/>
+<connect gate="G$1" pin="V_USB" pad="P38"/>
+<connect gate="G$1" pin="WHEEL_TKS" pad="P22"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14677" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
