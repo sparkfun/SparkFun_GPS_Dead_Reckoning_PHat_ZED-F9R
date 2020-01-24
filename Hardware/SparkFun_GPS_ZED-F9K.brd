@@ -1425,10 +1425,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="DESIGNER" value="" x="1.778" y="-16.256" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="REV" value="" x="1.778" y="-16.256" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="20.193" y="6.223" smashed="yes">
-<attribute name="NAME" x="20.193" y="6.985" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-12416" x="20.193" y="6.223" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="20.193" y="5.461" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="20.193" y="6.477" smashed="yes">
+<attribute name="NAME" x="20.193" y="7.239" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="20.193" y="6.477" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="20.193" y="5.715" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="L1" library="SparkFun-Coils" package="0402" value="3.9NH" x="17.399" y="8.001" smashed="yes">
 <attribute name="MFG_PART" value="BLM15HB121SN1D" x="17.399" y="8.001" size="1.778" layer="27" display="off"/>
@@ -1806,6 +1806,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="15.24" y="2.159" extent="1-16" drill="0.3048"/>
 <via x="13.97" y="2.54" extent="1-16" drill="0.3048"/>
 <via x="13.97" y="4.953" extent="1-16" drill="0.3048"/>
+<via x="20.32" y="31.75" extent="1-16" drill="0.3048"/>
+<via x="17.78" y="31.75" extent="1-16" drill="0.3048"/>
+<via x="15.24" y="31.75" extent="1-16" drill="0.3048"/>
+<via x="15.24" y="34.29" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP2" pad="2"/>
@@ -2281,7 +2285,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R5" pad="1"/>
 <wire x1="19.724" y1="8.001" x2="17.979" y2="8.001" width="0.508" layer="1"/>
 <wire x1="19.724" y1="8.001" x2="19.613" y2="7.89" width="0.508" layer="1"/>
-<wire x1="19.613" y1="7.89" x2="19.613" y2="6.223" width="0.508" layer="1"/>
+<wire x1="19.613" y1="7.89" x2="19.613" y2="6.477" width="0.508" layer="1"/>
 </signal>
 <signal name="V_RF">
 <contactref element="R5" pad="2"/>
