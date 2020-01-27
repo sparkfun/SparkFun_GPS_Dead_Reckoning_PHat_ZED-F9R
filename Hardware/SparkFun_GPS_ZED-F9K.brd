@@ -1823,6 +1823,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="6.35" y="41.91" extent="1-16" drill="0.3048"/>
 <via x="41.91" y="6.35" extent="1-16" drill="0.3048"/>
 <via x="36.83" y="1.27" extent="1-16" drill="0.3048"/>
+<via x="33.02" y="32.385" extent="1-16" drill="0.3048"/>
+<via x="29.083" y="32.385" extent="1-16" drill="0.3048"/>
+<via x="26.162" y="32.385" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP2" pad="2"/>
@@ -1953,18 +1956,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="B1" pad="+"/>
 <contactref element="U3" pad="P36"/>
 <wire x1="21.248" y1="25.11" x2="21.248" y2="26.201" width="0.254" layer="1"/>
-<wire x1="30.1244" y1="32.6744" x2="31.115" y2="33.665" width="0.254" layer="1"/>
-<wire x1="30.1244" y1="31.076" x2="30.1244" y2="32.131" width="0.254" layer="1"/>
-<wire x1="30.1244" y1="32.131" x2="30.1244" y2="32.6744" width="0.254" layer="1"/>
 <wire x1="21.248" y1="26.201" x2="21.971" y2="26.924" width="0.254" layer="1"/>
 <wire x1="21.971" y1="26.924" x2="21.971" y2="27.94" width="0.254" layer="1"/>
 <wire x1="21.59" y1="28.321" x2="21.59" y2="31.75" width="0.254" layer="1"/>
 <via x="21.59" y="31.75" extent="1-16" drill="0.381"/>
-<wire x1="21.59" y1="31.75" x2="21.844" y2="32.004" width="0.254" layer="16"/>
-<wire x1="29.9974" y1="32.004" x2="21.844" y2="32.004" width="0.254" layer="16"/>
-<wire x1="29.9974" y1="32.004" x2="30.1244" y2="32.131" width="0.254" layer="16"/>
-<via x="30.1244" y="32.131" extent="1-16" drill="0.381"/>
+<wire x1="31.3944" y1="31.623" x2="31.2674" y2="31.496" width="0.254" layer="16"/>
+<wire x1="21.59" y1="31.75" x2="21.844" y2="31.496" width="0.254" layer="16"/>
+<wire x1="31.2674" y1="31.496" x2="21.844" y2="31.496" width="0.254" layer="16"/>
+<via x="31.3944" y="31.623" extent="1-16" drill="0.381"/>
 <wire x1="21.971" y1="27.94" x2="21.59" y2="28.321" width="0.254" layer="1"/>
+<wire x1="30.1244" y1="31.076" x2="30.6714" y2="31.623" width="0.254" layer="1"/>
+<wire x1="30.6714" y1="31.623" x2="31.3944" y2="31.623" width="0.254" layer="1"/>
+<wire x1="31.3944" y1="31.623" x2="31.3944" y2="33.3856" width="0.254" layer="1"/>
+<wire x1="31.3944" y1="33.3856" x2="31.115" y2="33.665" width="0.254" layer="1"/>
 </signal>
 <signal name="TXO/MISO">
 <contactref element="U3" pad="P42"/>
