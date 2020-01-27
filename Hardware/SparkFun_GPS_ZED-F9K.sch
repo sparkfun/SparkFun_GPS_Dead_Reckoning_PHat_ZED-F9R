@@ -6567,7 +6567,7 @@ Max Current: 600mA</text>
 <wire x1="200.66" y1="215.9" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SHLD" class="0">
+<net name="SHIELD" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="SHLD"/>
 <wire x1="187.96" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
