@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -2156,7 +2156,7 @@ high temperature heat resistance.
 <wire x1="-10.962" y1="8.382" x2="-7.874" y2="8.382" width="0.2032" layer="21"/>
 <wire x1="8.128" y1="8.382" x2="11.038" y2="8.382" width="0.2032" layer="21"/>
 <wire x1="11.038" y1="8.382" x2="11.038" y2="7.112" width="0.2032" layer="21"/>
-<rectangle x1="-8.382" y1="-8.382" x2="-7.874" y2="-7.62" layer="20"/>
+<rectangle x1="-8.382" y1="-8.382" x2="-7.874" y2="-7.62" layer="51"/>
 </package>
 <package name="SOP_8-PIN">
 <description>&lt;h3&gt;Small Outline Package 8-Pin&lt;/h3&gt;
@@ -8070,7 +8070,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J2" pad="6"/>
 <contactref element="J2" pad="30"/>
 <contactref element="J2" pad="14"/>
-<via x="26.4668" y="39.0398" extent="1-16" drill="0.3048"/>
+<via x="26.7668" y="39.0898" extent="1-16" drill="0.3048"/>
 <via x="28.6766" y="39.0398" extent="1-16" drill="0.3048"/>
 <via x="30.7594" y="39.0398" extent="1-16" drill="0.3048"/>
 <via x="32.8676" y="39.0398" extent="1-16" drill="0.3048"/>
@@ -8124,7 +8124,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="39.1414" y="28.829" extent="1-16" drill="0.3048"/>
 <via x="41.2496" y="28.8036" extent="1-16" drill="0.3048"/>
 <via x="43.434" y="28.8544" extent="1-16" drill="0.3048"/>
-<via x="26.4668" y="26.8986" extent="1-16" drill="0.3048"/>
+<via x="26.8668" y="26.5986" extent="1-16" drill="0.3048"/>
 <via x="28.6766" y="26.8986" extent="1-16" drill="0.3048"/>
 <via x="30.7594" y="26.8986" extent="1-16" drill="0.3048"/>
 <via x="32.8676" y="26.8986" extent="1-16" drill="0.3048"/>
@@ -8132,7 +8132,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="37.084" y="26.8986" extent="1-16" drill="0.3048"/>
 <via x="39.1668" y="26.8986" extent="1-16" drill="0.3048"/>
 <via x="41.275" y="26.8732" extent="1-16" drill="0.3048"/>
-<via x="43.4594" y="26.924" extent="1-16" drill="0.3048"/>
+<via x="43.4594" y="26.624" extent="1-16" drill="0.3048"/>
 <contactref element="J1" pad="1"/>
 <via x="22.86" y="32.7406" extent="1-16" drill="0.3048"/>
 <via x="17.8546" y="31.0626" extent="1-16" drill="0.3048"/>
@@ -8345,6 +8345,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="6" y="46" extent="1-16" drill="0.3048"/>
 <via x="3" y="44" extent="1-16" drill="0.3048"/>
 <via x="3" y="41" extent="1-16" drill="0.3048"/>
+<via x="32.4" y="43.7" extent="1-16" drill="0.3048"/>
+<via x="34.3" y="42" extent="1-16" drill="0.3048"/>
+<via x="43.4594" y="25.724" extent="1-16" drill="0.3048"/>
+<via x="43.4594" y="24.924" extent="1-16" drill="0.3048"/>
+<via x="26.8668" y="25.7986" extent="1-16" drill="0.3048"/>
+<via x="26.8668" y="24.9486" extent="1-16" drill="0.3048"/>
+<via x="26.7668" y="40.0398" extent="1-16" drill="0.3048"/>
+<via x="26.7668" y="41.0398" extent="1-16" drill="0.3048"/>
+<via x="27.6766" y="39.0898" extent="1-16" drill="0.3048"/>
+<via x="27.6766" y="26.6486" extent="1-16" drill="0.3048"/>
+<via x="42.3594" y="26.624" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="JP2" pad="2"/>
@@ -8396,9 +8407,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="13.4786" y1="29.252" x2="13.4786" y2="30.5214" width="0.254" layer="16"/>
 <wire x1="11" y1="33" x2="11" y2="40.408" width="0.254" layer="16"/>
 <wire x1="13.4786" y1="30.5214" x2="11" y2="33" width="0.254" layer="16"/>
-<wire x1="46.0762" y1="44.3998" x2="45.904" y2="44.3998" width="0.508" layer="1"/>
-<wire x1="45.904" y1="44.3998" x2="44.2726" y2="46.0312" width="0.508" layer="1"/>
-<wire x1="44.2726" y1="46.0312" x2="44.2726" y2="46.6312" width="0.508" layer="1"/>
+<wire x1="46.0762" y1="44.3998" x2="46.0762" y2="44.7276" width="0.508" layer="1"/>
+<wire x1="46.0762" y1="44.7276" x2="44.2726" y2="46.5312" width="0.508" layer="1"/>
+<wire x1="44.2726" y1="46.5312" x2="44.2726" y2="46.6312" width="0.508" layer="1"/>
 <wire x1="9.123" y1="2" x2="9.123" y2="3.123" width="0.254" layer="1"/>
 <wire x1="13.4786" y1="29.252" x2="13.4732" y2="29.2466" width="0.254" layer="16"/>
 <wire x1="13.4732" y1="29.2466" x2="13.4732" y2="13.4732" width="0.254" layer="16"/>
@@ -8423,13 +8434,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R1" pad="1"/>
 <contactref element="B1" pad="+"/>
 <contactref element="U1" pad="P36"/>
-<wire x1="33.388" y1="40.33" x2="33.388" y2="42.8876" width="0.254" layer="1"/>
-<wire x1="33.388" y1="42.8876" x2="33.9344" y2="43.434" width="0.254" layer="1"/>
-<wire x1="33.9344" y1="43.434" x2="33.9598" y2="43.434" width="0.254" layer="1"/>
-<via x="33.9598" y="43.434" extent="1-16" drill="0.381"/>
-<wire x1="33.9598" y1="43.434" x2="46.434" y2="43.434" width="0.254" layer="16"/>
+<wire x1="33.3598" y1="43.484" x2="33.388" y2="43.4558" width="0.254" layer="1"/>
+<wire x1="33.388" y1="43.4558" x2="33.388" y2="40.33" width="0.254" layer="1"/>
+<via x="33.3598" y="43.484" extent="1-16" drill="0.381"/>
+<wire x1="33.3598" y1="43.484" x2="46.484" y2="43.484" width="0.254" layer="16"/>
 <via x="47" y="44.0602" extent="1-16" drill="0.381"/>
-<wire x1="46.434" y1="43.434" x2="47" y2="44" width="0.254" layer="16"/>
+<wire x1="46.484" y1="43.484" x2="47" y2="44" width="0.254" layer="16"/>
 <wire x1="47" y1="44" x2="47" y2="44.0602" width="0.254" layer="16"/>
 <wire x1="47" y1="44.0602" x2="47.9608" y2="44.0602" width="0.254" layer="1"/>
 <wire x1="47.9608" y1="44.0602" x2="50.4686" y2="46.568" width="0.254" layer="1"/>
