@@ -24655,8 +24655,8 @@ Max Current: 600mA</text>
 <attribute name="VALUE" x="345.44" y="94.234" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="345.44" y="122.428" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="358.14" y="124.46" smashed="yes">
-<attribute name="VALUE" x="358.14" y="127.254" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="360.68" y="124.46" smashed="yes">
+<attribute name="VALUE" x="360.68" y="127.254" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U4" gate="G$1" x="116.84" y="50.8" smashed="yes">
 <attribute name="NAME" x="109.22" y="60.96" size="1.778" layer="95"/>
@@ -24793,10 +24793,10 @@ Max Current: 600mA</text>
 <wire x1="355.6" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="91.44" x2="358.14" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="J8" gate="J1" pin="6"/>
-<wire x1="355.6" y1="111.76" x2="358.14" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="111.76" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="119.38" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
 <junction x="358.14" y="91.44"/>
+<pinref part="J8" gate="J1" pin="9"/>
+<wire x1="355.6" y1="119.38" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="1"/>
@@ -24866,10 +24866,10 @@ Max Current: 600mA</text>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="J8" gate="J1" pin="7"/>
-<wire x1="355.6" y1="114.3" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="114.3" x2="358.14" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+<pinref part="J8" gate="J1" pin="8"/>
+<wire x1="360.68" y1="116.84" x2="360.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="116.84" x2="360.68" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCC"/>
@@ -24920,11 +24920,6 @@ Max Current: 600mA</text>
 <label x="279.4" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J8" gate="J1" pin="9"/>
-<wire x1="355.6" y1="119.38" x2="360.68" y2="119.38" width="0.1524" layer="91"/>
-<label x="360.68" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="SCL/CLK"/>
 <wire x1="106.68" y1="226.06" x2="109.22" y2="226.06" width="0.1524" layer="91"/>
 <label x="109.22" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -24933,6 +24928,11 @@ Max Current: 600mA</text>
 <wire x1="307.34" y1="86.36" x2="312.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="312.42" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="J1" pin="7"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="111.76" x2="360.68" y2="111.76" width="0.1524" layer="91"/>
+<label x="360.68" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J8" gate="J1" pin="6"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -25251,14 +25251,19 @@ Max Current: 600mA</text>
 <label x="279.4" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J8" gate="J1" pin="8"/>
-<wire x1="355.6" y1="116.84" x2="360.68" y2="116.84" width="0.1524" layer="91"/>
-<label x="360.68" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="SDA/!CS!"/>
 <wire x1="106.68" y1="228.6" x2="109.22" y2="228.6" width="0.1524" layer="91"/>
 <label x="109.22" y="228.6" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="307.34" y1="93.98" x2="312.42" y2="93.98" width="0.1524" layer="91"/>
+<label x="312.42" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J3" gate="J1" pin="4"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="114.3" x2="360.68" y2="114.3" width="0.1524" layer="91"/>
+<label x="360.68" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J8" gate="J1" pin="7"/>
 </segment>
 </net>
 <net name="TXO2" class="0">
@@ -25384,13 +25389,6 @@ Max Current: 600mA</text>
 <wire x1="205.74" y1="223.52" x2="200.66" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="J2" gate="J1" pin="D-"/>
 <wire x1="200.66" y1="218.44" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!CS" class="0">
-<segment>
-<wire x1="307.34" y1="93.98" x2="312.42" y2="93.98" width="0.1524" layer="91"/>
-<label x="312.42" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J3" gate="J1" pin="4"/>
 </segment>
 </net>
 </nets>
