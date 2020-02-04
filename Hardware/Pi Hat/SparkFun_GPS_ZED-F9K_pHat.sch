@@ -26743,8 +26743,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="R3" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402-1/16W-1%" value="2.2K"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402-1/16W-1%" value="2.2K"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -26768,7 +26768,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="B1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
 <part name="U1" library="classified" deviceset="UBLOX_ZED_F9K" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="L1" library="SparkFun-Coils" deviceset="FERRITE_BEAD-120_OHM" device="-0402" value="3.9NH"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402-16V-10%" value="1.0uF"/>
 <part name="D4" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
