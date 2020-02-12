@@ -24070,8 +24070,8 @@ Max Current: 600mA</text>
 <instance part="SUPPLY15" gate="G$1" x="276.86" y="81.28" smashed="yes">
 <attribute name="VALUE" x="276.86" y="84.074" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="276.86" y="228.6" smashed="yes">
-<attribute name="VALUE" x="276.86" y="231.394" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="279.4" y="228.6" smashed="yes">
+<attribute name="VALUE" x="279.4" y="231.394" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R5" gate="G$1" x="124.46" y="68.58" smashed="yes">
 <attribute name="NAME" x="124.46" y="70.104" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -24612,8 +24612,7 @@ Max Current: 600mA</text>
 <pinref part="U2" gate="G$1" pin="IN"/>
 <wire x1="289.56" y1="226.06" x2="287.02" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="226.06" x2="276.86" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="226.06" x2="276.86" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="226.06" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <wire x1="289.56" y1="220.98" x2="287.02" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="220.98" x2="287.02" y2="226.06" width="0.1524" layer="91"/>
