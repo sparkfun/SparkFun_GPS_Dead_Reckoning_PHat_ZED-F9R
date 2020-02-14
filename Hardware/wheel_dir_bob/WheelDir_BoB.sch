@@ -588,43 +588,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SO08">
-<description>SOIC, 0.15 inch width</description>
-<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
-<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
-<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
-<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
-<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
-<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
-<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
-<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
-<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
-<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
-<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
-<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
-<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
-<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
-<polygon width="0.002540625" layer="21">
-<vertex x="-2.69875" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.06375" curve="90"/>
-<vertex x="-3.33375" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.69875" curve="90"/>
-</polygon>
-</package>
 <package name="SOD-323">
 <description>SOD-323 (Small Outline Diode)</description>
 <wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
@@ -707,92 +670,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="OPTOISOLATOR">
-<description>&lt;h3&gt;Dual Opto-isolator&lt;/h3&gt;
-Dual channel. Isolates connections with use of light.</description>
-<wire x1="-5.08" y1="7.62" x2="2.54" y2="7.62" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="5.08" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.2032" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.2032" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="5.08" width="0.2032" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="7.62" width="0.2032" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-3.302" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="5.08" x2="-3.302" y2="4.318" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="3.556" x2="-3.302" y2="3.556" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="3.556" x2="-4.064" y2="3.556" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="3.556" x2="-3.302" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="4.572" x2="-0.762" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="3.81" x2="-1.524" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="3.81" x2="-0.762" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="3.048" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="3.302" x2="-1.016" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="3.048" x2="-0.762" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-0.508" x2="-0.762" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-1.27" x2="-1.524" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.27" x2="-0.762" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-2.032" x2="-0.762" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-1.778" x2="-1.016" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-2.032" x2="-0.762" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.302" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="0" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.524" x2="-3.302" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="-1.524" x2="-4.064" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="-1.524" x2="-3.302" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="4.572" x2="0.508" y2="4.318" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="4.318" x2="0.508" y2="3.302" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="3.302" x2="0.508" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="4.318" x2="0.762" y2="4.318" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="4.318" x2="1.524" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.794" x2="1.27" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="3.048" x2="1.016" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="2.794" x2="1.27" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="3.302" x2="0.762" y2="3.302" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="3.302" x2="1.27" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.794" x2="1.524" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.508" x2="0.508" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.762" x2="0.508" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-1.778" x2="0.508" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.762" x2="0.762" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-0.762" x2="1.524" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.286" x2="1.27" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.032" x2="1.016" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-2.286" x2="1.27" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-1.778" x2="0.762" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.778" x2="1.27" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.286" x2="1.524" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="A1" x="-7.62" y="5.08" visible="off" length="short"/>
-<pin name="A2" x="-7.62" y="0" visible="off" length="short"/>
-<pin name="C1" x="-7.62" y="2.54" visible="off" length="short"/>
-<pin name="C2" x="-7.62" y="-2.54" visible="off" length="short"/>
-<pin name="CL1" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
-<pin name="CL2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<pin name="EM1" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="EM2" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
-<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-<polygon width="0.1524" layer="94">
-<vertex x="-4.064" y="4.318"/>
-<vertex x="-2.54" y="4.318"/>
-<vertex x="-3.302" y="3.556"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-4.064" y="-0.762"/>
-<vertex x="-2.54" y="-0.762"/>
-<vertex x="-3.302" y="-1.524"/>
-</polygon>
-</symbol>
 <symbol name="DIODE-SCHOTTKY">
 <description>&lt;h3&gt; Schottky Diode&lt;/h3&gt;
 Diode with low voltage drop</description>
@@ -816,37 +693,6 @@ Diode with low voltage drop</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DUAL-OPTOISOLATOR" prefix="U">
-<description>&lt;h3&gt;Optocoupler, Phototransistor Output, Dual Channel&lt;/h3&gt;
-&lt;p&gt;Optically coupled pairs with a gallium arsenide infrared LED and a silicon NPN phototransistor.
-&lt;br&gt; Signal information, including a DC level, can be transmitted by the device while maintaining a high degree of electrical isolation between input and output.
-&lt;br&gt;&lt;li&gt;&lt;a href='https://www.sparkfun.com/datasheets/Components/SMD/ild205t.pdf'&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.sparkfun.com/products/9118'&gt;SparkFun Opto-isolator Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="OPTOISOLATOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SOIC8" package="SO08">
-<connects>
-<connect gate="G$1" pin="A1" pad="1"/>
-<connect gate="G$1" pin="A2" pad="3"/>
-<connect gate="G$1" pin="C1" pad="2"/>
-<connect gate="G$1" pin="C2" pad="4"/>
-<connect gate="G$1" pin="CL1" pad="8"/>
-<connect gate="G$1" pin="CL2" pad="6"/>
-<connect gate="G$1" pin="EM1" pad="7"/>
-<connect gate="G$1" pin="EM2" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-09076"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DIODE-SCHOTTKY" prefix="D" uservalue="yes">
 <description>&lt;h3&gt;Schottky diode&lt;/h3&gt;
 &lt;p&gt;A Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action.&lt;/p&gt;</description>
@@ -977,7 +823,6 @@ Diode with low voltage drop</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" value="100pF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" value="100pF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0603-50V-10%" value="1nF"/>
-<part name="U1" library="SparkFun-DiscreteSemi" deviceset="DUAL-OPTOISOLATOR" device="_SOIC8"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
 </parts>
 <sheets>
@@ -1042,10 +887,6 @@ Diode with low voltage drop</description>
 <instance part="C6" gate="G$1" x="127" y="93.98" smashed="yes">
 <attribute name="NAME" x="128.524" y="96.901" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="128.524" y="91.821" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="U1" gate="G$1" x="129.54" y="132.08" smashed="yes">
-<attribute name="NAME" x="124.46" y="139.954" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="124.46" y="126.746" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="D1" gate="G$1" x="162.56" y="121.92" smashed="yes">
 <attribute name="NAME" x="160.02" y="123.952" size="1.778" layer="95" font="vector"/>
