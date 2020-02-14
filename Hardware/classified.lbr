@@ -311,6 +311,20 @@ Mechanical Specifications
 <wire x1="1.8" y1="2.6" x2="-2.2" y2="2.6" width="0.1" layer="51"/>
 <wire x1="-2.2" y1="2.6" x2="-2.2" y2="-2.4" width="0.1" layer="51"/>
 </package>
+<package name="SC-74A">
+<description>&lt;h3&gt;SC-74A&lt;/h3&gt;</description>
+<smd name="P1" x="0.5" y="2.3" dx="1" dy="0.7" layer="1"/>
+<smd name="P2" x="0.5" y="1.35" dx="1" dy="0.7" layer="1"/>
+<smd name="P3" x="0.5" y="0.4" dx="1" dy="0.7" layer="1"/>
+<text x="-0.5" y="3.42333125" size="2.54" layer="25">&gt;NAME</text>
+<text x="-0.5" y="-3.26333125" size="2.54" layer="27">&gt;VALUE</text>
+<smd name="P4" x="2.9" y="2.3" dx="1" dy="0.7" layer="1"/>
+<smd name="P5" x="2.9" y="0.4" dx="1" dy="0.7" layer="1"/>
+<wire x1="1" y1="-0.2" x2="2.4" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="2.4" y1="-0.2" x2="2.4" y2="2.9" width="0.1" layer="51"/>
+<wire x1="2.4" y1="2.9" x2="1" y2="2.9" width="0.1" layer="51"/>
+<wire x1="1" y1="2.9" x2="1" y2="-0.2" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ZED-F9R">
@@ -390,6 +404,20 @@ Mechanical Specifications
 <pin name="VOUT2" x="10.16" y="-7.62" length="short" direction="out" rot="R180"/>
 <text x="-7.62" y="10.922" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="NC7SZ14-D">
+<description>&lt;h3&gt;NC7SZ15-D&lt;/h3&gt;</description>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.1" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="10.16" y2="5.08" width="0.1" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.1" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1" layer="94"/>
+<pin name="VCC" x="-5.08" y="2.54" length="short" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-2.54" length="short" direction="pwr"/>
+<pin name="NC" x="12.7" y="-2.54" length="short" direction="nc" rot="R180"/>
+<pin name="A" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="Y" x="12.7" y="0" length="short" rot="R180"/>
+<text x="-2.54" y="7.62" size="2.54" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="2.54" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -480,6 +508,36 @@ range for only 0.5 mA of LED current.
 <technology name="">
 <attribute name="PROD_ID" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UHS_INVERTER_SCHMITT_TRIGGER">
+<description>&lt;h3&gt;NC7SZ14&lt;/h3&gt;
+&lt;p&gt;
+The NC7SZ14 is a single inverter with Schmitt trigger input from
+ON Semiconductor’s Ultra−High Speed (UHS) series of TinyLogic.
+The device is fabricated w ith advanced CMOS technology to achieve
+ultra−high speed with high output drive while maintaining low static
+power dissipation over a very broad VCC operating range. The device
+is specified to operate over the 1.65 V to 5.5 V VCC range. The inputs
+and outputs are high−impedance when VCC is 0 V. Inputs tolerate
+voltages up to 5.5 V independent of VCC operating voltage.
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NC7SZ14-D" x="-3.81" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC-74A">
+<connects>
+<connect gate="G$1" pin="A" pad="P2"/>
+<connect gate="G$1" pin="GND" pad="P3"/>
+<connect gate="G$1" pin="NC" pad="P1"/>
+<connect gate="G$1" pin="VCC" pad="P5"/>
+<connect gate="G$1" pin="Y" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
