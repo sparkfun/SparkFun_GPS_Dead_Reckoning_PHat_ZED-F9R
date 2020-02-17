@@ -15323,6 +15323,60 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
 <wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="CAP-PTH-SMALL-KIT">
+<description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
+Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.667" y1="1.27" x2="2.667" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="2.667" y1="-1.27" x2="-2.667" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="-1.27" x2="-2.667" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<pad name="2" x="1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="-1.4021" y="-0.9475" curve="-90"/>
+<vertex x="-2.357" y="-0.0178" curve="-90.011749"/>
+<vertex x="-1.4046" y="0.9576" curve="-90"/>
+<vertex x="-0.4546" y="-0.0204" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.4046" y="-0.4395" curve="-90.012891"/>
+<vertex x="-1.8491" y="-0.0153" curve="-90"/>
+<vertex x="-1.4046" y="0.452" curve="-90"/>
+<vertex x="-0.9627" y="-0.0051" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="1.397" y="-0.9475" curve="-90"/>
+<vertex x="0.4421" y="-0.0178" curve="-90.011749"/>
+<vertex x="1.3945" y="0.9576" curve="-90"/>
+<vertex x="2.3445" y="-0.0204" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.3945" y="-0.4395" curve="-90.012891"/>
+<vertex x="0.95" y="-0.0153" curve="-90"/>
+<vertex x="1.3945" y="0.452" curve="-90"/>
+<vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -15386,6 +15440,87 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CAP-07885" constant="no"/>
 <attribute name="VALUE" value="22nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.1UF" prefix="C">
+<description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12416"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-(+80/-20%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00810"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08604"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-KIT-EZ-50V-20%" package="CAP-PTH-SMALL-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08370"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-100V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08390"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-16V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12416" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15728,16 +15863,6 @@ Mechanical Specifications
 <text x="-7.62" y="10.922" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="CAP">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="NC7SZ14-D">
 <description>&lt;h3&gt;NC7SZ15-D&lt;/h3&gt;</description>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.1" layer="94"/>
@@ -15814,25 +15939,6 @@ range for only 0.5 mA of LED current.
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="100NF-0603-10V-10%" prefix="C">
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="-1.27"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
-<attribute name="VALUE" value="100nF" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -18080,7 +18186,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R3" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
 <part name="R6" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
 <part name="U1" library="classified" deviceset="HCPL-270L" device=""/>
-<part name="C5" library="classified" deviceset="100NF-0603-10V-10%" device="" value="100nF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP"/>
@@ -18102,8 +18208,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="C4" library="classified" deviceset="100NF-0603-10V-10%" device="" value="100nF"/>
-<part name="C7" library="classified" deviceset="100NF-0603-10V-10%" device="" value="100nF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="0.1uF"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>

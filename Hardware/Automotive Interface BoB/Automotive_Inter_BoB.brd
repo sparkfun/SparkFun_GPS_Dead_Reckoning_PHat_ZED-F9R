@@ -3457,10 +3457,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="7.371" y="24.55833125" size="2.54" layer="25"/>
 <attribute name="VALUE" x="7.371" y="16.08166875" size="2.54" layer="27"/>
 </element>
-<element name="C5" library="classified" package="0603" value="100nF" x="17.653" y="22.606" smashed="yes" rot="R270">
+<element name="C5" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="17.653" y="22.606" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.415" y="22.606" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="" x="17.653" y="22.606" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="16.891" y="22.606" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="17.653" y="22.606" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="16.891" y="22.606" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="1.27" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.127" y="5.08" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
@@ -3503,15 +3503,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="2.54" y="4.572" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="2.54" y="0.508" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C4" library="classified" package="0603" value="100nF" x="22.352" y="17.272" smashed="yes" rot="R90">
+<element name="C4" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="22.352" y="17.272" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.59" y="17.272" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="" x="22.352" y="17.272" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="23.114" y="17.272" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="22.352" y="17.272" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="23.114" y="17.272" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C7" library="classified" package="0603" value="100nF" x="22.352" y="8.509" smashed="yes" rot="R90">
+<element name="C7" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="22.352" y="8.509" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.59" y="8.509" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="" x="22.352" y="8.509" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="23.114" y="8.509" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-08390" x="22.352" y="8.509" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="23.114" y="8.509" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="12.7" smashed="yes" rot="MR270"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="2.54" smashed="yes" rot="MR270"/>
