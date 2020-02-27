@@ -31883,6 +31883,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
+<part name="TP5" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32239,6 +32241,12 @@ connectors to each other.</text>
 <instance part="TP4" gate="G$1" x="271.78" y="12.7" smashed="yes">
 <attribute name="NAME" x="276.86" y="12.7" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="TP5" gate="G$1" x="271.78" y="22.86" smashed="yes">
+<attribute name="NAME" x="276.86" y="22.86" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="269.24" y="25.4" smashed="yes">
+<attribute name="VALUE" x="269.24" y="28.194" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32387,6 +32395,12 @@ connectors to each other.</text>
 <wire x1="312.42" y1="71.12" x2="312.42" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="22.86" x2="269.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="22.86" x2="269.24" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
 </net>
 <net name="SCL/CLK" class="0">
 <segment>
@@ -32531,7 +32545,7 @@ connectors to each other.</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="RF_IN" class="0">
+<net name="RF_IN" class="1">
 <segment>
 <label x="134.62" y="81.28" size="1.27" layer="95" xref="yes"/>
 <wire x1="134.62" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
