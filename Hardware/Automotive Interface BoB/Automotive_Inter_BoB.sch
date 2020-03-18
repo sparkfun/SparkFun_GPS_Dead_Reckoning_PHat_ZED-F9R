@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,6 +9,8 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -15821,8 +15823,8 @@ Mechanical Specifications
 <smd name="P3" x="-1.151" y="-0.997" dx="1" dy="0.7" layer="1"/>
 <text x="-3.802" y="2.53433125" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.802" y="-3.77133125" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="P4" x="1.249" y="0.903" dx="1" dy="0.7" layer="1"/>
-<smd name="P5" x="1.249" y="-0.997" dx="1" dy="0.7" layer="1"/>
+<smd name="P4" x="1.249" y="-0.997" dx="1" dy="0.7" layer="1"/>
+<smd name="P5" x="1.249" y="0.903" dx="1" dy="0.7" layer="1"/>
 <wire x1="-0.651" y1="-1.597" x2="0.749" y2="-1.597" width="0.1" layer="51"/>
 <wire x1="0.749" y1="-1.597" x2="0.749" y2="1.503" width="0.1" layer="51"/>
 <wire x1="0.749" y1="1.503" x2="-0.651" y2="1.503" width="0.1" layer="51"/>
@@ -15880,6 +15882,8 @@ Mechanical Specifications
 </symbols>
 <devicesets>
 <deviceset name="910OHM-0603-1/10W-5%" prefix="R">
+<description>&lt;h3&gt;910 Ohm Resistor&lt;/h3&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07910RL/311-910GRTR-ND/726838"&gt;Digikey Link&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -15954,6 +15958,9 @@ power dissipation over a very broad VCC operating range. The device
 is specified to operate over the 1.65 V to 5.5 V VCC range. The inputs
 and outputs are high−impedance when VCC is 0 V. Inputs tolerate
 voltages up to 5.5 V independent of VCC operating voltage.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/on-semiconductor/NC7SZ14M5X/NC7SZ14M5XDKR-ND/1628606"&gt;Digikey Link&lt;/a&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="NC7SZ14-D" x="-3.81" y="0"/>
@@ -16652,24 +16659,6 @@ part number 2062-2P from STA</description>
 <wire x1="-2.79" y1="-4.25" x2="2.79" y2="-4.25" width="0.1778" layer="21"/>
 <pad name="2" x="-1.27" y="-5.85" drill="0.8"/>
 <pad name="1" x="1.27" y="-5.85" drill="0.8"/>
-</package>
-<package name="LATCHTERMINAL-5MM-2">
-<pad name="1" x="-2.5" y="0" drill="1.5"/>
-<pad name="2" x="2.5" y="0" drill="1.5"/>
-<wire x1="-5.1" y1="6.3" x2="-5.1" y2="-6.3" width="0.1524" layer="21"/>
-<wire x1="-5.1" y1="-6.3" x2="5.1" y2="-6.3" width="0.1524" layer="21"/>
-<wire x1="-5.1" y1="6.3" x2="5.1" y2="6.3" width="0.1524" layer="21"/>
-<wire x1="5.1" y1="6.3" x2="5.1" y2="-6.3" width="0.1524" layer="21"/>
-<wire x1="-4" y1="5" x2="-4" y2="-7" width="0.1524" layer="51"/>
-<wire x1="-4" y1="-7" x2="-1" y2="-7" width="0.1524" layer="51"/>
-<wire x1="-1" y1="-7" x2="-1" y2="5" width="0.1524" layer="51"/>
-<wire x1="-1" y1="5" x2="-4" y2="5" width="0.1524" layer="51"/>
-<wire x1="1" y1="5" x2="1" y2="-7" width="0.1524" layer="51"/>
-<wire x1="1" y1="-7" x2="4" y2="-7" width="0.1524" layer="51"/>
-<wire x1="4" y1="-7" x2="4" y2="5" width="0.1524" layer="51"/>
-<wire x1="4" y1="5" x2="1" y2="5" width="0.1524" layer="51"/>
-<text x="-5.08" y="6.985" size="1.778" layer="25">&gt;Name</text>
-<text x="-5.08" y="-10.16" size="1.778" layer="25">&gt;Value</text>
 </package>
 <package name="1X06">
 <description>&lt;h3&gt;Plated Through Hole - 6 Pin&lt;/h3&gt;
@@ -17414,6 +17403,24 @@ Alternate pin configuration
 <text x="-3.67" y="7.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.67" y="-6.505" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="LATCHTERMINAL-5MM-2">
+<pad name="P$1" x="-2.5" y="0" drill="1.5"/>
+<pad name="P$2" x="2.5" y="0" drill="1.5"/>
+<wire x1="-5.1" y1="6.3" x2="-5.1" y2="-6.3" width="0.1524" layer="21"/>
+<wire x1="-5.1" y1="-6.3" x2="5.1" y2="-6.3" width="0.1524" layer="21"/>
+<wire x1="-5.1" y1="6.3" x2="5.1" y2="6.3" width="0.1524" layer="21"/>
+<wire x1="5.1" y1="6.3" x2="5.1" y2="-6.3" width="0.1524" layer="21"/>
+<wire x1="-4" y1="5" x2="-4" y2="-7" width="0.1524" layer="51"/>
+<wire x1="-4" y1="-7" x2="-1" y2="-7" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-7" x2="-1" y2="5" width="0.1524" layer="51"/>
+<wire x1="-1" y1="5" x2="-4" y2="5" width="0.1524" layer="51"/>
+<wire x1="1" y1="5" x2="1" y2="-7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-7" x2="4" y2="-7" width="0.1524" layer="51"/>
+<wire x1="4" y1="-7" x2="4" y2="5" width="0.1524" layer="51"/>
+<wire x1="4" y1="5" x2="1" y2="5" width="0.1524" layer="51"/>
+<text x="-5.08" y="6.985" size="1.778" layer="25">&gt;Name</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="25">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_06">
@@ -18066,13 +18073,11 @@ Alternate pin configuration
 </device>
 <device name="LATCH_2" package="LATCHTERMINAL-5MM-2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="PRT-15898" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
