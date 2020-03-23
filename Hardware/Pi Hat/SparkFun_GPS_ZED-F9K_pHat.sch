@@ -29009,7 +29009,10 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="TXO" pad="8 8B"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14914" constant="no"/>
+<attribute name="PROD_ID_2" value="CONN-14915" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SMD_STACKABLE_NOHOLES" package="RASPBERRY_PI_HAT_40_PIN_SMD_STACKABLE_NOHOLES">
@@ -29047,7 +29050,10 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="TXO" pad="8 8B"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14914" constant="no"/>
+<attribute name="PROD_ID_2" value="CONN-14915" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SMD_STACK_NOHOLES_NOREF" package="RASPBERRY_PI_HAT_40_PIN_SMD_STACKABLE_NOHOLES_NOREF">
@@ -31032,6 +31038,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </technology>
 </technologies>
 </device>
+<device name="-0402-25V-5%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15063" constant="no"/>
+<attribute name="VALUE" value="47pF" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1.0UF" prefix="C">
@@ -31167,6 +31185,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name=""/>
 </technologies>
 </device>
+<device name="-0402-25V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15061" constant="no"/>
+<attribute name="VALUE" value="1nF" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="22NF/22,000PF" prefix="C">
@@ -31184,6 +31214,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-07885" constant="no"/>
+<attribute name="VALUE" value="22nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15062" constant="no"/>
 <attribute name="VALUE" value="22nF" constant="no"/>
 </technology>
 </technologies>
@@ -31265,6 +31307,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-12416" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-6.3V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14993" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
@@ -32804,7 +32858,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="B1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
 <part name="U1" library="classified" deviceset="UBLOX_ZED_F9R" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="47PF" device="-0402-25V-5%-X7R" value="47pF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402-16V-10%" value="1.0uF"/>
 <part name="D4" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -32876,15 +32930,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R30" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
 <part name="R31" library="SparkFun-Resistors" deviceset="3.3KOHM" device="-0603-1/10W-1%" value="3.3k"/>
 <part name="R32" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402-50V-10%" value="1.0nF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402-50V-10%" value="1.0nF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402-25V-10%-X7R" value="1nF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-25V-10%-X7R" value="22nF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-25V-10%-X7R" value="22nF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402-25V-10%-X7R" value="1nF"/>
 <part name="D7" library="classified" deviceset="BZX84_DIODE" device="" value="0.5A/40V/420mV"/>
 <part name="R33" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
 <part name="R34" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
 <part name="U2" library="classified" deviceset="HCPL-270L" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" value="0.1uF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$30" library="classified" deviceset="UHS_INVERTER_SCHMITT_TRIGGER" device="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6"/>
@@ -32896,8 +32950,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" value="0.1uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP6" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
@@ -33285,6 +33339,7 @@ connectors to each other.</text>
 </instance>
 <instance part="C2" gate="G$1" x="327.66" y="182.88" smashed="yes">
 <attribute name="NAME" x="329.184" y="185.801" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="329.184" y="180.721" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C3" gate="G$1" x="419.1" y="157.48" smashed="yes">
 <attribute name="NAME" x="420.624" y="160.401" size="1.778" layer="95" font="vector"/>
@@ -33296,6 +33351,7 @@ connectors to each other.</text>
 </instance>
 <instance part="C5" gate="G$1" x="327.66" y="157.48" smashed="yes">
 <attribute name="NAME" x="329.184" y="160.401" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="329.184" y="155.321" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="D7" gate="G$1" x="337.82" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="342.138" y="163.322" size="1.778" layer="95" font="vector" rot="R180"/>
