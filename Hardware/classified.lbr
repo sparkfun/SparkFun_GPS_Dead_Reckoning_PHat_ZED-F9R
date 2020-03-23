@@ -6,9 +6,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -383,6 +385,17 @@ Mechanical Specifications
 <wire x1="0.79" y1="0.77" x2="-0.82" y2="0.77" width="0.1" layer="39"/>
 <wire x1="-0.82" y1="0.77" x2="-0.82" y2="-0.8" width="0.1" layer="39"/>
 </package>
+<package name="SOT23_BZX">
+<smd name="P3" x="0" y="1.016" dx="0.6" dy="0.7" layer="1" rot="R180"/>
+<smd name="P1" x="-0.85" y="-0.984" dx="0.6" dy="0.7" layer="1" rot="R180"/>
+<smd name="P2" x="0.85" y="-0.984" dx="0.6" dy="0.7" layer="1" rot="R180"/>
+<wire x1="1.5" y1="0.716" x2="-1.5" y2="0.716" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.716" x2="-1.5" y2="-0.684" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.684" x2="1.5" y2="-0.684" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-0.684" x2="1.5" y2="0.716" width="0.1" layer="51"/>
+<text x="-3" y="2" size="1.27" layer="25">&gt; NAME</text>
+<text x="-3" y="-3.278" size="1.27" layer="27">&gt; VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ZED-F9R">
@@ -501,6 +514,25 @@ Mechanical Specifications
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="DIODE-ZENER">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
+<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="1.27" y="0"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -675,6 +707,24 @@ voltages up to 5.5 V independent of VCC operating voltage.
 <technology name="">
 <attribute name="PROD_ID" value="" constant="no"/>
 <attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BZX84_DIODE">
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23_BZX">
+<connects>
+<connect gate="G$1" pin="A" pad="P1"/>
+<connect gate="G$1" pin="C" pad="P3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -3563,18 +3563,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U$2" pad="P3"/>
 <contactref element="C4" pad="2"/>
 <contactref element="U$1" pad="P3"/>
-<wire x1="19.685" y1="16.256" x2="18.962" y2="19.685" width="0" layer="19" extent="1-1"/>
-<wire x1="18.534" y1="16.275" x2="19.685" y2="16.256" width="0" layer="19" extent="1-1"/>
-<wire x1="17.526" y1="19.685" x2="18.534" y2="16.275" width="0" layer="19" extent="1-1"/>
-<wire x1="17.653" y1="21.756" x2="17.526" y2="19.685" width="0" layer="19" extent="1-1"/>
-<wire x1="15.379" y1="19.812" x2="17.526" y2="19.685" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="13.97" x2="18.534" y2="16.275" width="0" layer="19" extent="1-1"/>
-<wire x1="14.1605" y1="15.5135" x2="15.24" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="11.557" x2="15.24" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="14.0335" y1="10.0135" x2="15.24" y2="11.557" width="0" layer="19" extent="1-1"/>
-<wire x1="18.534" y1="7.512" x2="14.0335" y2="10.0135" width="0" layer="19" extent="1-1"/>
-<wire x1="22.352" y1="9.359" x2="18.534" y2="7.512" width="0" layer="19" extent="1-1"/>
-<wire x1="1.27" y1="6.35" x2="14.0335" y2="10.0135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="P8"/>

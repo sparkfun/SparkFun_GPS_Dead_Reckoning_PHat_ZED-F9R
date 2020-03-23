@@ -32244,6 +32244,17 @@ Mechanical Specifications
 <wire x1="0.79" y1="0.77" x2="-0.82" y2="0.77" width="0.1" layer="39"/>
 <wire x1="-0.82" y1="0.77" x2="-0.82" y2="-0.8" width="0.1" layer="39"/>
 </package>
+<package name="SOT23_BZX">
+<smd name="P3" x="0" y="1.016" dx="0.6" dy="0.7" layer="1" rot="R180"/>
+<smd name="P1" x="-0.85" y="-0.984" dx="0.6" dy="0.7" layer="1" rot="R180"/>
+<smd name="P2" x="0.85" y="-0.984" dx="0.6" dy="0.7" layer="1" rot="R180"/>
+<wire x1="1.5" y1="0.716" x2="-1.5" y2="0.716" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.716" x2="-1.5" y2="-0.684" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.684" x2="1.5" y2="-0.684" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-0.684" x2="1.5" y2="0.716" width="0.1" layer="51"/>
+<text x="-3" y="2" size="1.27" layer="25">&gt; NAME</text>
+<text x="-3" y="-3.278" size="1.27" layer="27">&gt; VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ZED-F9R">
@@ -32327,6 +32338,25 @@ Mechanical Specifications
 <pin name="Y" x="12.7" y="0" length="short" rot="R180"/>
 <text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="DIODE-ZENER">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
+<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="1.27" y="0"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -32483,6 +32513,24 @@ voltages up to 5.5 V independent of VCC operating voltage.
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BZX84_DIODE">
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23_BZX">
+<connects>
+<connect gate="G$1" pin="A" pad="P1"/>
+<connect gate="G$1" pin="C" pad="P3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -32832,7 +32880,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402-50V-10%" value="1.0nF"/>
-<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
+<part name="D7" library="classified" deviceset="BZX84_DIODE" device="" value="0.5A/40V/420mV"/>
 <part name="R33" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
 <part name="R34" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
 <part name="U2" library="classified" deviceset="HCPL-270L" device=""/>
@@ -32843,7 +32891,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$31" library="classified" deviceset="UHS_INVERTER_SCHMITT_TRIGGER" device="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
+<part name="D8" library="classified" deviceset="BZX84_DIODE" device="" value="0.5A/40V/420mV"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
