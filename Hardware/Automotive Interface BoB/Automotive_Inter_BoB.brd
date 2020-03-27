@@ -3425,16 +3425,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-07886" x="8.5725" y="10.541" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.3345" y="10.541" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="22nF" x="14.1605" y="16.3635" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.9225" y="16.3635" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-07885" x="14.1605" y="16.3635" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="13.3985" y="16.3635" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
-</element>
-<element name="C3" library="SparkFun-Capacitors" package="0603" value="22nF" x="14.0335" y="9.1635" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.2715" y="9.1635" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-07885" x="14.0335" y="9.1635" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="14.7955" y="9.1635" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
 <element name="C6" library="SparkFun-Capacitors" package="0603" value="1nF" x="8.5725" y="14.351" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.3345" y="14.351" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-07886" x="8.5725" y="14.351" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -3540,8 +3530,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="GND">
 <contactref element="U1" pad="P5"/>
 <contactref element="C5" pad="2"/>
-<contactref element="C2" pad="2"/>
-<contactref element="C3" pad="2"/>
 <contactref element="J1" pad="1"/>
 <polygon width="0.254" layer="1" isolate="0.254">
 <vertex x="0" y="25.4"/>
@@ -3657,8 +3645,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="WT_SCHMITT">
 <contactref element="U$1" pad="P2"/>
 <contactref element="R3" pad="1"/>
-<contactref element="C2" pad="1"/>
-<wire x1="14.1605" y1="17.2135" x2="15.24" y2="17.2135" width="0.254" layer="1"/>
 <wire x1="15.24" y1="17.2135" x2="16.3195" y2="17.2135" width="0.254" layer="1"/>
 <wire x1="14.097" y1="18.542" x2="14.732" y2="18.542" width="0.254" layer="1"/>
 <wire x1="14.732" y1="18.542" x2="15.24" y2="18.034" width="0.254" layer="1"/>
@@ -3674,12 +3660,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="DIR_SCHMITT">
 <contactref element="U$2" pad="P2"/>
 <contactref element="R6" pad="1"/>
-<contactref element="C3" pad="1"/>
 <wire x1="18.534" y1="8.462" x2="16.595" y2="8.462" width="0.254" layer="1"/>
 <wire x1="16.595" y1="8.462" x2="16.3195" y2="8.1865" width="0.254" layer="1"/>
 <wire x1="16.3195" y1="8.1865" x2="16.1925" y2="8.3135" width="0.254" layer="1"/>
 <wire x1="16.1925" y1="8.3135" x2="15.24" y2="8.3135" width="0.254" layer="1"/>
-<wire x1="15.24" y1="8.3135" x2="14.0335" y2="8.3135" width="0.254" layer="1"/>
 <via x="13.97" y="20.447" extent="1-16" drill="0.381"/>
 <wire x1="13.97" y1="7.874" x2="13.97" y2="20.447" width="0.254" layer="16"/>
 <via x="15.113" y="7.239" extent="1-16" drill="0.381"/>

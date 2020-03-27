@@ -15426,27 +15426,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="22NF/22,000PF" prefix="C">
-<description>&lt;h3&gt;0.022uF/22nF/22,000pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07885" constant="no"/>
-<attribute name="VALUE" value="22nF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="0.1UF" prefix="C">
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -18184,8 +18163,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="SparkFun-Resistors" deviceset="3.3KOHM" device="-0603-1/10W-1%" value="3.3k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0603-50V-10%" value="1nF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0603-50V-10%" value="1nF"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
 <part name="R3" library="classified" deviceset="910OHM-0603-1/10W-5%" device="" value="910"/>
@@ -18201,8 +18178,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
-<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -18263,14 +18238,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="39.624" y="112.141" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="39.624" y="107.061" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="226.06" y="129.54" smashed="yes">
-<attribute name="NAME" x="227.584" y="132.461" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="227.584" y="127.381" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C3" gate="G$1" x="193.04" y="129.54" smashed="yes">
-<attribute name="NAME" x="194.564" y="132.461" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="194.564" y="127.381" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="C6" gate="G$1" x="38.1" y="83.82" smashed="yes">
 <attribute name="NAME" x="39.624" y="86.741" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="39.624" y="81.661" size="1.778" layer="96" font="vector"/>
@@ -18324,12 +18291,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="D2" gate="G$1" x="45.72" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.038" y="112.522" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="GND4" gate="1" x="193.04" y="121.92" smashed="yes">
-<attribute name="VALUE" x="193.04" y="121.666" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND3" gate="1" x="226.06" y="121.92" smashed="yes">
-<attribute name="VALUE" x="226.06" y="121.666" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="226.06" y="160.02" smashed="yes">
 <attribute name="VALUE" x="226.06" y="162.814" size="1.778" layer="96" align="bottom-center"/>
@@ -18435,16 +18396,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="121.92" y="116.84"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="226.06" y1="124.46" x2="226.06" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="193.04" y1="127" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -18536,9 +18487,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="220.98" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="142.24" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="137.16" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
-<junction x="226.06" y="137.16"/>
 <label x="220.98" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -18555,11 +18503,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="142.24" x2="193.04" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="137.16" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
-<junction x="193.04" y="137.16"/>
 <label x="190.5" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
