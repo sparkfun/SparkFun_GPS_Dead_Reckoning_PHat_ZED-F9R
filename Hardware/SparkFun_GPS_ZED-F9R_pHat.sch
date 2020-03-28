@@ -33160,7 +33160,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="PWR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="BT1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
@@ -33174,8 +33174,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R20" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="RTK" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="PPS" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
@@ -33209,7 +33209,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R28" library="SparkFun-Resistors" deviceset="27OHM" device="-0603-1/10W-1%" value="27"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R22" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="GEOF" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD_GNSS" device="" value="120NH"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="33OHM" device="-0603-1/10W-1%" value="33"/>
@@ -33269,7 +33269,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="355.6" y="10.16" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="5.08" y="269.24" size="3.81" layer="94" font="vector">Dead Reckoning Module - ZED-F9R</text>
 <text x="165.1" y="203.2" size="3.81" layer="94" font="vector">Battery</text>
@@ -33390,7 +33390,7 @@ connectors together.</text>
 <instance part="SUPPLY7" gate="G$1" x="177.8" y="43.18" smashed="yes">
 <attribute name="VALUE" x="177.8" y="45.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="147.32" y="40.64" smashed="yes">
+<instance part="PWR" gate="G$1" x="147.32" y="40.64" smashed="yes">
 <attribute name="NAME" x="149.86" y="45.72" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND6" gate="1" x="33.02" y="60.96" smashed="yes">
@@ -33443,10 +33443,10 @@ connectors together.</text>
 <instance part="R21" gate="G$1" x="160.02" y="22.86" smashed="yes">
 <attribute name="NAME" x="160.02" y="24.384" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="147.32" y="22.86" smashed="yes">
+<instance part="RTK" gate="G$1" x="147.32" y="22.86" smashed="yes">
 <attribute name="NAME" x="149.86" y="27.94" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="JP2" gate="G$1" x="147.32" y="30.48" smashed="yes">
+<instance part="PPS" gate="G$1" x="147.32" y="30.48" smashed="yes">
 <attribute name="NAME" x="149.86" y="35.56" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND19" gate="1" x="139.7" y="10.16" smashed="yes">
@@ -33537,8 +33537,8 @@ connectors together.</text>
 <instance part="R22" gate="G$1" x="160.02" y="15.24" smashed="yes">
 <attribute name="NAME" x="160.02" y="16.764" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="JP4" gate="G$1" x="147.32" y="15.24" smashed="yes">
-<attribute name="NAME" x="152.908" y="19.558" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="GEOF" gate="G$1" x="147.32" y="15.24" smashed="yes">
+<attribute name="NAME" x="150.622" y="19.558" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="D4" gate="G$1" x="172.72" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="165.608" y="16.129" size="1.778" layer="95" font="vector"/>
@@ -33776,20 +33776,20 @@ connectors together.</text>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="RTK" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="22.86" x2="139.7" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="PPS" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="15.24" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="30.48" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <junction x="139.7" y="22.86"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="40.64" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <junction x="139.7" y="30.48"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="GEOF" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="15.24" x2="139.7" y2="15.24" width="0.1524" layer="91"/>
 <junction x="139.7" y="15.24"/>
 </segment>
@@ -34196,14 +34196,14 @@ connectors together.</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="RTK" gate="G$1" pin="2"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="22.86" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="PPS" gate="G$1" pin="2"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="30.48" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -34244,7 +34244,7 @@ connectors together.</text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="PWR" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -34464,7 +34464,7 @@ connectors together.</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="GEOF" gate="G$1" pin="2"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="15.24" x2="154.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
