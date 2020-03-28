@@ -33329,6 +33329,8 @@ connectors together.</text>
 <text x="302.26" y="269.24" size="3.81" layer="94" font="vector">Wheel Tick and Direction Circuitry</text>
 <wire x1="160.02" y1="213.36" x2="297.18" y2="213.36" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="134.62" x2="86.36" y2="0" width="0.1524" layer="97" style="shortdash"/>
+<text x="299.72" y="175.26" size="1.778" layer="97" font="vector">Wheel Tick/Direction
+Input: 3-24V</text>
 </plain>
 <instances>
 <instance part="R23" gate="G$1" x="170.18" y="93.98" smashed="yes" rot="R90">
