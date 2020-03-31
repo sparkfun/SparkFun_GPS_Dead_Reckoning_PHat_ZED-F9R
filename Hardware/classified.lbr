@@ -356,7 +356,15 @@ Mechanical Specifications
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="SIP6">
-<description>&lt;h3&gt;SIP6 Package&lt;/h3&gt;</description>
+<description>&lt;h3&gt;SIP6 Package&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total Size: 1.45mm x 1mm&lt;/li&gt;
+&lt;li&gt;Pad Size: .3mm x .52mm&lt;/li&gt;
+&lt;li&gt;Pitch: .5mm&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <smd name="P1" x="-0.508" y="-0.381" dx="0.3" dy="0.52" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="P2" x="-0.008" y="-0.381" dx="0.3" dy="0.52" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="P3" x="0.492" y="-0.381" dx="0.3" dy="0.52" layer="1" rot="R180" stop="no" cream="no"/>
@@ -376,13 +384,13 @@ Mechanical Specifications
 <rectangle x1="-0.208" y1="0.039" x2="0.192" y2="0.659" layer="29"/>
 <rectangle x1="-0.708" y1="0.039" x2="-0.308" y2="0.659" layer="29"/>
 <circle x="-1.068" y="-0.781" radius="0.178884375" width="0" layer="21"/>
-<text x="-1.397" y="-1.651" size="0.508" layer="27">&gt;VALUE</text>
+<text x="-1.397" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.71" y1="-0.5" x2="0.69" y2="0.5" layer="51"/>
 <wire x1="-0.82" y1="-0.8" x2="0.79" y2="-0.8" width="0.1" layer="39"/>
 <wire x1="0.79" y1="-0.8" x2="0.79" y2="0.77" width="0.1" layer="39"/>
 <wire x1="0.79" y1="0.77" x2="-0.82" y2="0.77" width="0.1" layer="39"/>
 <wire x1="-0.82" y1="0.77" x2="-0.82" y2="-0.8" width="0.1" layer="39"/>
-<text x="-1.397" y="1.016" size="0.508" layer="25">&gt;NAME</text>
+<text x="-1.397" y="1.016" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="SOT23_BZX">
 <smd name="P3" x="0" y="1.016" dx="0.6" dy="0.7" layer="1" rot="R180"/>
@@ -656,9 +664,7 @@ voltages up to 5.5 V independent of VCC operating voltage.
 <connect gate="G$1" pin="Y" pad="P4"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-15068" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SIP6" package="SIP6">
@@ -693,25 +699,6 @@ voltages up to 5.5 V independent of VCC operating voltage.
 <technology name="">
 <attribute name="PROD_ID" value="RES-13860" constant="no"/>
 <attribute name="VALUE" value="910" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="100NF-0603-10V-10%" prefix="C">
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="-1.27"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
-<attribute name="VALUE" value="100nF" constant="no"/>
 </technology>
 </technologies>
 </device>
