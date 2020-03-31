@@ -2873,27 +2873,6 @@ high temperature heat resistance.
 </package>
 </packages>
 </library>
-<library name="classified">
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-IC-Power">
 <description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
 In this library you'll find anything that has to do with power delivery, or making power supplies.
@@ -10993,12 +10972,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-15071" x="37.16745" y="25.223" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" value="15V" x="13.16745" y="23.223" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R21" library="classified" package="0603" value="910" x="21.25" y="15.257" smashed="yes">
+<element name="R21" library="SparkFun-Resistors" package="0603" value="910" x="21.25" y="15.257" smashed="yes">
 <attribute name="NAME" x="21.25" y="16.019" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-13860" x="0.25" y="17.257" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="21.25" y="14.495" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R22" library="classified" package="0603" value="910" x="17.866" y="15.257" smashed="yes" rot="R180">
+<element name="R22" library="SparkFun-Resistors" package="0603" value="910" x="17.866" y="15.257" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.866" y="14.495" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-13860" x="42.866" y="17.257" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="17.866" y="16.019" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
