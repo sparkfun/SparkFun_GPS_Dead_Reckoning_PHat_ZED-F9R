@@ -31747,6 +31747,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </technology>
 </technologies>
 </device>
+<device name="-0402-10V-10%-X7R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15083" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -33366,7 +33378,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="SparkFun-GPS" deviceset="U-BLOX_ZED_F9R" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="47PF" device="-0402-25V-5%-X7R" value="47pF"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402-16V-10%" value="1.0uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-10V-10%-X7R" value="0.1uF"/>
 <part name="D6" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402-1/16W-1%" value="100K"/>
@@ -33428,7 +33440,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R21" library="SparkFun-Resistors" deviceset="910OHM" device="-0603-1/10W-5%" value="910"/>
 <part name="R22" library="SparkFun-Resistors" deviceset="910OHM" device="-0603-1/10W-5%" value="910"/>
 <part name="U2" library="SparkFun-DiscreteSemi" deviceset="DUAL-OPTO_HCPL-073L" device=""/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" value="0.1uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-10V-10%-X7R" value="0.1uF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-IC-Amplifiers" deviceset="UHS_INVERTER_SCHMITT_TRIGGER" device="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6"/>
@@ -33438,8 +33450,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZX84C15LT3G" value="15V"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" value="0.1uF"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" value="0.1uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-10V-10%-X7R" value="0.1uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-10V-10%-X7R" value="0.1uF"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP6" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>
 <part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value="TEST-POINT3X4"/>

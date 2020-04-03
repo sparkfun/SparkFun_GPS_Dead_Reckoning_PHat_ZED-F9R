@@ -10322,10 +10322,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-15063" x="31.846" y="21.4386" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" value="47pF" x="31.846" y="20.6766" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0402" value="1.0uF" x="36.0708" y="42.6348" smashed="yes">
+<element name="C1" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="36.0708" y="42.6348" smashed="yes">
 <attribute name="NAME" x="36.0708" y="43.3968" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-12417" x="36.0708" y="42.6348" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="36.0708" y="41.8728" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-15083" x="36.0708" y="42.6348" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="36.0708" y="41.8728" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="D6" library="SparkFun-IC-Power" package="SOT886" value="PRTR5V0U2F" x="52.2432" y="9.3056" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.1432" y="9.3056" size="0.6096" layer="25" ratio="20" rot="R90" align="bottom-center"/>
@@ -10534,7 +10534,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="23" y="18.095" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.238" y="18.095" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14993" x="33" y="-18.905" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="CAP-15083" x="33" y="-18.905" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.762" y="18.095" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U3" library="SparkFun-IC-Amplifiers" package="SIP6" value="UHS_INVERTER_SCHMITT_TRIGGERSIP6" x="21.135" y="13.23" smashed="yes" rot="R180">
@@ -10554,12 +10554,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="21.644" y="11.135" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.406" y="11.135" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14993" x="-3.356" y="69.135" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-15083" x="-3.356" y="69.135" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.882" y="11.135" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="18.342" y="11.135" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.104" y="11.135" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14993" x="-6.658" y="41.135" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-15083" x="-6.658" y="41.135" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="17.58" y="11.135" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="TP6" library="SparkFun-Connectors" package="PAD.03X.04" value="TEST-POINT3X4" x="19.05" y="10.16" smashed="yes" rot="MR270"/>
