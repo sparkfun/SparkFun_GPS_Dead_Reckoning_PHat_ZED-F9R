@@ -10322,10 +10322,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-15063" x="31.846" y="21.4386" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" value="47pF" x="31.846" y="20.6766" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="36.0708" y="42.6348" smashed="yes">
+<element name="C1" library="SparkFun-Capacitors" package="0402" value="1.0uF" x="36.0708" y="42.6348" smashed="yes">
 <attribute name="NAME" x="36.0708" y="43.3968" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-15083" x="36.0708" y="42.6348" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="36.0708" y="41.8728" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-12417" x="36.0708" y="42.6348" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="1.0uF" x="36.0708" y="41.8728" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="D6" library="SparkFun-IC-Power" package="SOT886" value="PRTR5V0U2F" x="52.2432" y="9.3056" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.1432" y="9.3056" size="0.6096" layer="25" ratio="20" rot="R90" align="bottom-center"/>
