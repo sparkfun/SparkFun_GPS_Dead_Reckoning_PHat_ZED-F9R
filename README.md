@@ -1,7 +1,7 @@
 SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi
 ========================================
 
-[![SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi](URL for picture of part)](https://www.sparkfun.com/products/16475)
+[![SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi](https://cdn.sparkfun.com//assets/parts/1/5/3/3/9/16475-SparkFun_GPS-RTK_Dead_Reckoning_pHAT_for_Raspberry_Pi-01.jpg)](https://www.sparkfun.com/products/16475)
 
 [*SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi (GPS-16475)*](https://www.sparkfun.com/products/16475)
 
