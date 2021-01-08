@@ -16,6 +16,7 @@ This u-blox receiver supports a few serial protocols. By default, we chose to us
 U-blox based GPS products are configurable using the popular, but dense, windows program called u-center. Plenty of different functions can be configured on the ZED-F9R: baud rates, update rates, geofencing, spoofing detection, external interrupts, SBAS/D-GPS, etc.
 
 The SparkFun ZED-F9R GPS pHAT is also equipped with an on-board rechargeable battery that provides power to the RTC on the ZED-F9R. This reduces the time-to-first fix from a cold start (~24s) to a hot start (~2s). The battery will maintain RTC and GNSS orbit data without being connected to power for plenty of time.
+
 Repository Contents
 -------------------
 
