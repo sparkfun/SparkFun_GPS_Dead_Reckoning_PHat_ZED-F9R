@@ -3,7 +3,7 @@ SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi
 
 [![SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/parts/2/1/0/9/6/21305-GPS-RTK-Dead-Reckoning-pHAT-Feature.jpg)](https://www.sparkfun.com/products/21305)
 
-[*SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi (GPS-16475)*](https://www.sparkfun.com/products/21305)
+[*SparkFun GPS-RTK Dead Reckoning pHAT (ZED-F9R) for Raspberry Pi (GPS-21305)*](https://www.sparkfun.com/products/21305)
 
 The SparkFun ZED-F9R GPS pHAT is a high precision, sensor fusion GPS board with equally impressive configuration options and takes advantage of u-blox's Automotive Dead Reckoning (ADR) technology. The ZED-F9R module provides a highly accurate and continuous position by fusing a 3D IMU sensor, wheel ticks, a vehicle dynamics model, correction data, and GNSS measurements.
 
